@@ -1,16 +1,17 @@
 # Control-Systems
 
-Open-loop vs. Closed-loop systems
-Feedback and feedforward control
-PID (Proportional-Integral-Derivative) Control
-Stability analysis (e.g., using Bode plots or root-locus)
 
-Transfer functions and state-space representation
-Stability and natural frequency
-Transient response (how quickly a system reaches steady state)
+# Topics
+
+- Open-loop vs. Closed-loop systems
+- Transfer functions and state-space representation
+- Feedback and feedforward control
+- Stability analysis (e.g., using Bode plots or root-locus) and natural frequency
+- Transient response (how quickly a system reaches steady state)
+- PID (Proportional-Integral-Derivative) Control
 
 
-https://www.linkedin.com/posts/mvlino_inverse-kinematics-solution-activity-7293712728077049856-MWGk/?utm_source=share&utm_medium=member_android
+
 
 ## Interesting Work
 
