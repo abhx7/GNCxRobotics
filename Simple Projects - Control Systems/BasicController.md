@@ -116,3 +116,8 @@ plt.show()
 ✅ **Implement friction/damping** \( b \dot{\theta} \) in the dynamics.  
 ✅ **Test step response, disturbance rejection** (simulate external torque).  
 ✅ **Compare proportional control with PID** for better performance.  
+
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
