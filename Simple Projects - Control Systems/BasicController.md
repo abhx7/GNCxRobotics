@@ -8,9 +8,8 @@ Control the **angular position** of a spacecraft/drone along a single axis (e.g.
 ## **Step 1: System Dynamics (Single-Axis Rotation)**  
 The rotational dynamics can be approximated as:
 
-\[
-I \ddot{\theta} = M
-\]
+![Equation](https://latex.codecogs.com/svg.latex?\Large%20I\ddot{\theta}=M)
+
 
 where:  
 - \( I \) = Moment of inertia about the axis  
