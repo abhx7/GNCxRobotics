@@ -18,7 +18,7 @@ where:
 
 Taking the **Laplace transform**:  
 
-![Equation](https://quicklatex.com/cache3/66/ql_511bf8f0c921630b16c4939c9bcf6566_l3.pn)
+![Equation](https://quicklatex.com/cache3/66/ql_511bf8f0c921630b16c4939c9bcf6566_l3.png)
 
 Assuming initial conditions are zero,
 ![Equation](https://quicklatex.com/cache3/3f/ql_94ecbde34f065dd8e45fbfbb276a2d3f_l3.png)
