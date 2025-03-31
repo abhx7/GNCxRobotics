@@ -55,7 +55,7 @@ Since this is still a **second-order system**, the response depends on **![Equat
 
 ---
 
-## **Step 3: Simulink & Python Implementation**  
+## **Step 3: Simulink & Python Basic Implementation**   
 
 ### **Simulink Setup:**  
 1. Create a **second-order system block**:  
@@ -107,6 +107,11 @@ plt.show()
 
 ---
 
+## Detailed Analysis 
+From the code, 
+
+
+---
 ## Possible Extensions
 ✅ **Implement friction/damping** ![Equation](https://quicklatex.com/cache3/76/ql_a0619f4555f93c31dd585aa1c54b3c76_l3.png) in the dynamics.  
 ✅ **Test step response, disturbance rejection** (simulate external torque).  
