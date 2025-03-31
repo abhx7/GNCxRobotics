@@ -101,14 +101,17 @@ plt.show()
 ```
 
 ## Step 4: Observations & Tuning
-✔ **If** ![Equation](https://quicklatex.com/cache3/97/ql_472657be04f1eaed46d63aa1534c2397_l3.png) **is small** → The response is **slow and steady**.  
-✔ **If** ![Equation](https://quicklatex.com/cache3/97/ql_472657be04f1eaed46d63aa1534c2397_l3.png) **is large** → The response is **faster but may overshoot**.  
-✔ **Without** ![Equation](https://quicklatex.com/cache3/4a/ql_16700456c6d1465a43e0426f2e9bc54a_l3.png) (derivative control), the system **may oscillate and never fully settle**.  
+✔ **If** Kp **is small** → The response is **slow and steady**.  
+✔ **If** Kp **is large** → The response is **faster but may overshoot**.  
+✔ **Without** Kd (derivative control), the system **may oscillate and never fully settle**.  
 
 ---
 
 ## Detailed Analysis 
-From the code, 
+From the [code](https://github.com/abhx7/Control-Systems/blob/main/Simple%20Projects%20-%20Control%20Systems/basic-controller-1dof.py), we perform
+- Change in step respons with variation in Kp
+- Stability Analysis using Bode Plot and Nyquist Plot
+- Visualtion through Animations
 
 
 ---
