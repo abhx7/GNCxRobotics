@@ -12,21 +12,18 @@ The rotational dynamics can be approximated as:
 
 
 where:  
-- \( I \) = Moment of inertia about the axis  
-- \( \theta \) = Angular position  
-- \( M \) = Control torque applied  
+- I  = Moment of inertia about the axis  
+- θ = Angular position  
+- M  = Control torque applied  
 
 Taking the **Laplace transform** (assuming initial conditions are zero):  
 
-\[
-I s^2 \Theta(s) = M(s)
-\]
+I s^2 θ(s) = M(s)
+
 
 The **open-loop transfer function** is:
 
-\[
-G(s) = \frac{\Theta(s)}{M(s)} = \frac{1}{I s^2}
-\]
+![Equation](https://quicklatex.com/cache3/51/ql_466f397dcf6761de153201f098199d51_l3.png)
 
 This is a **double integrator system**, meaning **without control, the angular position will keep changing indefinitely**.  
 
@@ -35,21 +32,15 @@ This is a **double integrator system**, meaning **without control, the angular p
 ## **Step 2: Proportional Control Design**  
 A proportional controller applies torque based on the angular position error:
 
-\[
-M = -K_p (\theta - \theta_{ref})
-\]
+![Equation](https://quicklatex.com/cache3/ed/ql_92ef34dac90e5c774e599b60ddfb67ed_l3.png)
 
 In Laplace form:
 
-\[
-M(s) = -K_p (\Theta(s) - \Theta_{ref}(s))
-\]
+![Equation](https://quicklatex.com/cache3/33/ql_e8f86c9ddeea56e236290312906ab933_l3.png)
 
 Using **unity feedback**, the **closed-loop transfer function** is:
 
-\[
-T(s) = \frac{K_p}{I s^2 + K_p}
-\]
+![Equation](https://quicklatex.com/cache3/4d/ql_eafb61a1ad97634c1346066d1aee404d_l3.png)
 
 Since this is still a **second-order system**, the response depends on **\( K_p \)**:  
 - **Higher \( K_p \)** → Faster response but **higher oscillations**.  
@@ -62,11 +53,9 @@ Since this is still a **second-order system**, the response depends on **\( K_p 
 ### **Simulink Setup:**  
 1. Create a **second-order system block**:  
 
-   \[
-   G(s) = \frac{1}{I s^2}
-   \]
+   ![Equation](https://quicklatex.com/cache3/c7/ql_ca82c0e253f56da8ce1a3598db68a7c7_l3.png)
 
-2. Add a **gain block** for \( K_p \).  
+2. Add a **gain block** for ![Equation](https://quicklatex.com/cache3/ee/ql_6b83fafc312f464ed8126a88854815ee_l3.png).  
 3. Connect a **step input** (desired angle) and observe the output.  
 
 ---
@@ -105,18 +94,15 @@ plt.show()
 ```
 
 ## Step 4: Observations & Tuning
-✔ **If** \( K_p \) **is small** → The response is **slow and steady**.  
-✔ **If** \( K_p \) **is large** → The response is **faster but may overshoot**.  
-✔ **Without** \( K_d \) (derivative control), the system **may oscillate and never fully settle**.  
+✔ **If** ![Equation](https://quicklatex.com/cache3/ee/ql_6b83fafc312f464ed8126a88854815ee_l3.png) **is small** → The response is **slow and steady**.  
+✔ **If** ![Equation](https://quicklatex.com/cache3/ee/ql_6b83fafc312f464ed8126a88854815ee_l3.png) **is large** → The response is **faster but may overshoot**.  
+✔ **Without** ![Equation](https://quicklatex.com/cache3/06/ql_6ab835a909c540d7b0c65ba992466d06_l3.png) (derivative control), the system **may oscillate and never fully settle**.  
 
 ---
 
 ## Possible Extensions
-✅ **Implement friction/damping** \( b \dot{\theta} \) in the dynamics.  
+✅ **Implement friction/damping** ![Equation](https://quicklatex.com/cache3/76/ql_a0619f4555f93c31dd585aa1c54b3c76_l3.png) in the dynamics.  
 ✅ **Test step response, disturbance rejection** (simulate external torque).  
 ✅ **Compare proportional control with PID** for better performance.  
 
 
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
