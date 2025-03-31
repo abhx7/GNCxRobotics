@@ -50,8 +50,8 @@ Using **unity feedback**, the **closed-loop transfer function** is:
 ![Image](https://github.com/abhx7/Control-Systems/blob/main/Simple%20Projects%20-%20Control%20Systems/BasicController-ClosedLoopBD.png)
 
 Since this is still a **second-order system**, the response depends on **![Equation](https://quicklatex.com/cache3/97/ql_472657be04f1eaed46d63aa1534c2397_l3.png)**:  
-- **Higher \( K_p \)** → Faster response but **higher oscillations**.  
-- **Lower \( K_p \)** → Slower response with **minimal oscillations**.  
+- **Higher ![Equation](https://quicklatex.com/cache3/97/ql_472657be04f1eaed46d63aa1534c2397_l3.png)** → Faster response but **higher oscillations**.  
+- **Lower ![Equation](https://quicklatex.com/cache3/97/ql_472657be04f1eaed46d63aa1534c2397_l3.png)** → Slower response with **minimal oscillations**.  
 
 ---
 
