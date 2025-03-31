@@ -28,7 +28,7 @@ The **open-loop transfer function** is:
 
 ![Equation](https://quicklatex.com/cache3/51/ql_466f397dcf6761de153201f098199d51_l3.png)
 
-![Image](https://github.com/abhx7/Control-Systems/blob/main/Simple%20Projects%20-%20Control%20Systems/BasicController-ClosedLoopBD.png)
+![Image](https://github.com/abhx7/Control-Systems/blob/main/Simple%20Projects%20-%20Control%20Systems/BasicController-OpenLoopBD.png)
 
 This is a **double integrator system**, meaning **without control, the angular position will keep changing indefinitely**.  
 
@@ -47,7 +47,7 @@ Using **unity feedback**, the **closed-loop transfer function** is:
 
 ![Equation](https://quicklatex.com/cache3/4d/ql_eafb61a1ad97634c1346066d1aee404d_l3.png)
 
-![Image](https://github.com/abhx7/Control-Systems/blob/main/Simple%20Projects%20-%20Control%20Systems/BasicController-OpenLoopBD.png)
+![Image](https://github.com/abhx7/Control-Systems/blob/main/Simple%20Projects%20-%20Control%20Systems/BasicController-ClosedLoopBD.png)
 
 Since this is still a **second-order system**, the response depends on **![Equation](https://quicklatex.com/cache3/97/ql_472657be04f1eaed46d63aa1534c2397_l3.png)**:  
 - **Higher \( K_p \)** → Faster response but **higher oscillations**.  
