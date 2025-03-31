@@ -42,7 +42,7 @@ Using **unity feedback**, the **closed-loop transfer function** is:
 
 ![Equation](https://quicklatex.com/cache3/4d/ql_eafb61a1ad97634c1346066d1aee404d_l3.png)
 
-Since this is still a **second-order system**, the response depends on **\( K_p \)**:  
+Since this is still a **second-order system**, the response depends on **![Equation](https://quicklatex.com/cache3/97/ql_472657be04f1eaed46d63aa1534c2397_l3.png)**:  
 - **Higher \( K_p \)** → Faster response but **higher oscillations**.  
 - **Lower \( K_p \)** → Slower response with **minimal oscillations**.  
 
