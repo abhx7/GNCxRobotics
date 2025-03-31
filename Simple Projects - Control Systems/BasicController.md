@@ -18,7 +18,7 @@ where:
 
 Taking the **Laplace transform** (assuming initial conditions are zero):  
 
-I s^2 θ(s) = M(s)
+![Equation](https://quicklatex.com/cache3/37/ql_ed7b517ae2d17603a6c7c499d98c7037_l3.png)
 
 
 The **open-loop transfer function** is:
@@ -55,7 +55,7 @@ Since this is still a **second-order system**, the response depends on **\( K_p 
 
    ![Equation](https://quicklatex.com/cache3/c7/ql_ca82c0e253f56da8ce1a3598db68a7c7_l3.png)
 
-2. Add a **gain block** for ![Equation](https://quicklatex.com/cache3/ee/ql_6b83fafc312f464ed8126a88854815ee_l3.png).  
+2. Add a **gain block** for ![Equation](https://quicklatex.com/cache3/97/ql_472657be04f1eaed46d63aa1534c2397_l3.png).  
 3. Connect a **step input** (desired angle) and observe the output.  
 
 ---
@@ -94,9 +94,9 @@ plt.show()
 ```
 
 ## Step 4: Observations & Tuning
-✔ **If** ![Equation](https://quicklatex.com/cache3/ee/ql_6b83fafc312f464ed8126a88854815ee_l3.png) **is small** → The response is **slow and steady**.  
-✔ **If** ![Equation](https://quicklatex.com/cache3/ee/ql_6b83fafc312f464ed8126a88854815ee_l3.png) **is large** → The response is **faster but may overshoot**.  
-✔ **Without** ![Equation](https://quicklatex.com/cache3/06/ql_6ab835a909c540d7b0c65ba992466d06_l3.png) (derivative control), the system **may oscillate and never fully settle**.  
+✔ **If** ![Equation](https://quicklatex.com/cache3/97/ql_472657be04f1eaed46d63aa1534c2397_l3.png) **is small** → The response is **slow and steady**.  
+✔ **If** ![Equation](https://quicklatex.com/cache3/97/ql_472657be04f1eaed46d63aa1534c2397_l3.png) **is large** → The response is **faster but may overshoot**.  
+✔ **Without** ![Equation](https://quicklatex.com/cache3/4a/ql_16700456c6d1465a43e0426f2e9bc54a_l3.png) (derivative control), the system **may oscillate and never fully settle**.  
 
 ---
 
