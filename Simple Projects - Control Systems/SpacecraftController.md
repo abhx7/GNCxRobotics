@@ -8,31 +8,20 @@ Design a **state feedback controller** to stabilize and control the attitude (or
 ## **Step 1: Mathematical Modeling**
 A spacecraft’s rotational motion is governed by **Euler’s equations**:
 
-\[
-I \dot{\omega} + \omega \times (I \omega) = M
-\]
+![Equation](https://quicklatex.com/cache3/bc/ql_5ef3dfc992d1aa916d5fda1c32fc33bc_l3.png)
 
 where:  
-- \( I \) = **Moment of inertia matrix** (assumed diagonal for simplicity: \( I_x, I_y, I_z \))  
-- \( \omega = [\omega_x, \omega_y, \omega_z] \) = Angular velocity vector  
-- \( M = [M_x, M_y, M_z] \) = External torques from reaction wheels  
+- I  = **Moment of inertia matrix** (assumed diagonal for simplicity: Iₓ, Iy, Iz)  
+- ω = [ωₓ, ωy, ωz] = Angular velocity vector  
+- M = [Mₓ, My, Mz] = External torques from reaction wheels  
 
 For small-angle approximations, the system can be linearized as:
 
-\[
-\dot{\omega} = I^{-1} (M - \omega \times (I \omega))
-\]
+![Equation](https://quicklatex.com/cache3/ff/ql_edf48c25cfe431b779c38df42d5fadff_l3.png)
 
 In state-space form:
 
-\[
-\begin{bmatrix} \dot{\omega_x} \\ \dot{\omega_y} \\ \dot{\omega_z} \end{bmatrix} =
-\begin{bmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix}
-\begin{bmatrix} \omega_x \\ \omega_y \\ \omega_z \end{bmatrix} +
-\begin{bmatrix} 1/I_x & 0 & 0 \\ 0 & 1/I_y & 0 \\ 0 & 0 & 1/I_z \end{bmatrix}
-\begin{bmatrix} M_x \\ M_y \\ M_z \end{bmatrix}
-\]
-
+![Equation](https://quicklatex.com/cache3/54/ql_bc0c7393d0f50d694a4630618d506254_l3.png)
 ---
 
 ## **Step 2: Implement in Simulink/Python**
@@ -45,18 +34,14 @@ In state-space form:
 ### **Proportional-Derivative (PD) Controller:**
 Control torque:
 
-\[
-M = -K_p (\theta - \theta_{ref}) - K_d \omega
-\]
+![Equation](https://quicklatex.com/cache3/55/ql_41b813cbed9fec79be7b32b55a2a8e55_l3.png)
 
-- Simulate in Simulink/Python and tune **\( K_p \) and \( K_d \)** for stable attitude control.
+- Simulate in Simulink/Python and tune **Kp and Kd** for stable attitude control.
   
 ### **State Feedback Control (LQR)**
 Define a cost function:
 
-\[
-J = \int (\omega^T Q \omega + M^T R M) dt
-\]
+![Equation](https://quicklatex.com/cache3/d2/ql_b09d02827b08d27d28610b6a93a6ecd2_l3.png)
 
 - Use `control.lqr()` in Python to get **optimal feedback gains**.
 
