@@ -110,11 +110,17 @@ plt.show()
 ## Detailed Analysis 
 From the [code](https://github.com/abhx7/Control-Systems/blob/main/Simple%20Projects%20-%20Control%20Systems/basic-controller-1dof.py), we perform
 - Change in step respons with variation in Kp
+  
   ![Image](https://github.com/abhx7/Control-Systems-x-Robotics-x-Guidance/blob/main/Simple%20Projects%20-%20Control%20Systems/step_response.png)
+  
 - Stability Analysis using Bode Plot and Nyquist Plot
+  
   ![Image](https://github.com/abhx7/Control-Systems-x-Robotics-x-Guidance/blob/main/Simple%20Projects%20-%20Control%20Systems/nyquist_plot.png)
+  
   ![Image](https://github.com/abhx7/Control-Systems-x-Robotics-x-Guidance/blob/main/Simple%20Projects%20-%20Control%20Systems/bode_plot.png)
+  
 - Visualtion through Animations
+  
   ![Video](https://github.com/abhx7/Control-Systems-x-Robotics-x-Guidance/blob/main/Simple%20Projects%20-%20Control%20Systems/spacecraft_rotation.gif)
 
 
