@@ -47,7 +47,7 @@ For a single axis, the system can be approximated as a **second-order transfer f
 ---
 
 ### **Auto-Tuning Using Ziegler-Nichols**  
-1. Set Kᵢ = 0, K_d = 0 \).  
+1. Set Kᵢ = 0, Kd= 0 .  
 2. Increase Kₚ until the system **oscillates**.  
 3. Use oscillation period Tᵤ to calculate optimal PID gains:  
 
