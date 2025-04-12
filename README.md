@@ -18,6 +18,9 @@
 ### Courses
 - [Visual Autonomous Navigation](https://www.linkedin.com/posts/enzo-ghisoni-robotics_robotics-activity-7313530619362258945-Bclp/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 
+### Tools
+- [𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐟𝐨𝐫 𝐑𝐨𝐛𝐨𝐭 𝐒𝐢𝐦𝐮𝐥𝐚𝐭𝐢𝐨𝐧𝐬](https://www.linkedin.com/posts/parthkanate_l047-robotics-simulationtools-activity-7314255418602479617-GpDc/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
+
 ### Interesting Work
 - [Linear Quadratic Regulator (LQR) control for stabilized flight and a Kalman Filter for robust state estimation under noise](https://www.linkedin.com/posts/parthmotaphale_aerospace-aerospaceengineering-guidancecontrol-activity-7308203299973865473-c8TT/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [Vehicle Dynamics with a Simple Model](https://www.linkedin.com/posts/krishna-teja-7005aa158_simscape-multibody-vehicledynamics-ugcPost-7312343381127372801-stKA/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
