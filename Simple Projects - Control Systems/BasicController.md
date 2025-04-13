@@ -107,9 +107,9 @@ plt.show()
 
 ---
 
-## Detailed Analysis 
+## Detailed Analysis for Proportional Control
 From the [code](https://github.com/abhx7/Control-Systems/blob/main/Simple%20Projects%20-%20Control%20Systems/basic-controller-1dof.py), we perform
-- Change in step respons with variation in Kp
+- Change in step response with variation in Kp
   
   ![Image](https://github.com/abhx7/Control-Systems-x-Robotics-x-Guidance/blob/main/Simple%20Projects%20-%20Control%20Systems/step_response.png)
   
