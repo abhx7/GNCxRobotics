@@ -1,0 +1,44 @@
+Hi and
+welcome to the Supplementary Materials for the Aerial Robotics course
+of robotics specialization. This series of videos will introduce
+you to topics in mathematics, dynamics and controls that we'll
+use throughout this course. First, I wanna briefly introduce myself. My name is Sarah Tang and I'm a PhD
+student at the University of Pennsylvania. My research interests are in
+developing motion planning algorithms that will allow autonomous robots to
+perform tasks in cluttered environments. Specifically, I'm interested
+in three types of problems. First, I'm interested in
+developing algorithm for a specific class of system
+called hybrid dynamical systems. These are systems that have multiple modes
+of operation, each with their own sets of dynamics and discrete events trigger
+transitions between these different modes. The challenge in planning for
+these systems is in planning not only the behavior of a system within a specific
+mode, but also in planning when and how the system will transition. An example of this type of system is a
+quadrotor with a cable suspended payload. In this case, pick-ups and releases of
+the payload are the discreet events that trigger transitions between the with and
+without payload modes. In our lab, we've equipped a quad
+rotor with an electromagnet, allowing it to pick up magnetic payloads
+and our algorithm is able to generate trajectories that pick-up objects and
+release them to drop at desired locations. Second, I'm interested in planning for
+higher order under actuated systems. These systems have many
+degrees of freedom, but cannot directly control all these degrees
+of freedom to arbitrary configurations. Again, a quadrotor with a cable suspended
+payload is an example of this type of system. Both the quadrotor and the payload
+can rotate and translate in 3D space. However, they cannot
+do this independently. In fact, the trajectory of the payload
+determines a required configuration for the quadrotor. Our goal is to plan aggressive motions for
+the system. For example, suppose the quadrotor comes
+across a window obstacle where the height of the window is smaller than
+the length of the cable. Our algorithm can generate a trajectory
+that contains that necessary swing to bring both the quadrotor and
+the payload through this narrow gap. Finally, I'm interested in
+the multi-robot planning problem. In this problem, we are given a two
+more robots at sets start positions. These robots must navigate
+to a set of goal locations. However, the goal that each robot must
+navigate to is specified beforehand and cannot be changed. The goal of this problem is to generate
+trajectories that will bring each robot to its goal while avoiding
+collisions with each other. Throughout this course,
+I'll be delivering supplementary videos. These videos will serve three purposes. First, we hope to provide you with some
+technical background on concepts used throughout the course. Second, we'll work through some example
+problems that will help you with the quizzes and the exercises. And finally, there will be MATLAB
+demonstrations that will help you as you work through your programming assignments. I'm glad to see that you're
+taking this course and I look forward to working with you.
