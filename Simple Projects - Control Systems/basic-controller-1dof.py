@@ -35,53 +35,66 @@ print(f"Settling Time: {settling_time:.2f} s")
 print(f"Overshoot: {overshoot:.2f}%")
 print(f"Steady-State Error: {steady_state_error:.4f}")
 
+
+
+# Step Response Plot
+plt.figure()
+plt.xlabel("Time (s)")
+plt.ylabel("Angle θ (rad)")
+plt.title("Step Response")
+plt.plot(t, y, label=f"Kp={Kp}")
+plt.grid()
+plt.savefig("single_step_response.png", dpi=300)  # 🔽 Save as PNG
+plt.show()
+
+
 # === 3D SPACECRAFT VISUALIZATION === #
-# fig = plt.figure(figsize=(7, 7))
-# ax = fig.add_subplot(111, projection='3d')
-# ax.set_xlim([-1.2, 1.2])
-# ax.set_ylim([-1.2, 1.2])
-# ax.set_zlim([-1.2, 1.2])
-# ax.set_title("Spacecraft Rotation Visualization")
+fig = plt.figure(figsize=(7, 7))
+ax = fig.add_subplot(111, projection='3d')
+ax.set_xlim([-1.2, 1.2])
+ax.set_ylim([-1.2, 1.2])
+ax.set_zlim([-1.2, 1.2])
+ax.set_title("Spacecraft Rotation Visualization")
 
-# # Spacecraft body (cuboid)
-# body_x = np.array([-0.5, 0.5, 0.5, -0.5, -0.5]) * 0.3
-# body_y = np.array([-0.2, -0.2, 0.2, 0.2, -0.2]) * 0.3
-# body_z = np.array([0, 0, 0, 0, 0])
+# Spacecraft body (cuboid)
+body_x = np.array([-0.5, 0.5, 0.5, -0.5, -0.5]) * 0.3
+body_y = np.array([-0.2, -0.2, 0.2, 0.2, -0.2]) * 0.3
+body_z = np.array([0, 0, 0, 0, 0])
 
-# # Initial spacecraft plot
-# spacecraft, = ax.plot(body_x, body_y, body_z, 'bo-', markersize=8, lw=2)
+# Initial spacecraft plot
+spacecraft, = ax.plot(body_x, body_y, body_z, 'bo-', markersize=8, lw=2)
 
-# # Add stars in background
-# num_stars = 50
-# ax.scatter(np.random.uniform(-1, 1, num_stars), 
-#            np.random.uniform(-1, 1, num_stars), 
-#            np.random.uniform(-1, 1, num_stars), color='white', s=10)
+# Add stars in background
+num_stars = 50
+ax.scatter(np.random.uniform(-1, 1, num_stars), 
+           np.random.uniform(-1, 1, num_stars), 
+           np.random.uniform(-1, 1, num_stars), color='white', s=10)
 
-# # Rotate function
-# def update(frame):
-#     angle = y[frame]  # Get the angle from step response
-#     R = np.array([[np.cos(angle), -np.sin(angle), 0], 
-#                   [np.sin(angle), np.cos(angle), 0], 
-#                   [0, 0, 1]])  # Rotation matrix around Z-axis
+# Rotate function
+def update(frame):
+    angle = y[frame]  # Get the angle from step response
+    R = np.array([[np.cos(angle), -np.sin(angle), 0], 
+                  [np.sin(angle), np.cos(angle), 0], 
+                  [0, 0, 1]])  # Rotation matrix around Z-axis
 
-#     rotated = np.dot(R, np.vstack((body_x, body_y, body_z)))
+    rotated = np.dot(R, np.vstack((body_x, body_y, body_z)))
     
-#     spacecraft.set_data(rotated[0, :], rotated[1, :])
-#     spacecraft.set_3d_properties(rotated[2, :])
+    spacecraft.set_data(rotated[0, :], rotated[1, :])
+    spacecraft.set_3d_properties(rotated[2, :])
 
-#     return spacecraft,
+    return spacecraft,
 
-# # Create animation
-# ani = animation.FuncAnimation(fig, update, frames=len(t), blit=True, interval=20)
+# Create animation
+ani = animation.FuncAnimation(fig, update, frames=len(t), blit=True, interval=20)
 
-# print("Saving to:", os.getcwd())
-# # Save as GIF
-# ani.save("spacecraft_rotation.gif", writer="pillow", fps=30)
-# # ani.save("spacecraft_rotation.mp4", writer="ffmpeg", fps=30) # OR save as MP4 (choose one)
+print("Saving to:", os.getcwd())
+# Save as GIF
+ani.save("spacecraft_rotation.gif", writer="pillow", fps=30)
+# ani.save("spacecraft_rotation.mp4", writer="ffmpeg", fps=30) # OR save as MP4 (choose one)
 
-# # Set dark theme for space effect
-# ax.set_facecolor('black')
-# plt.show()
+# Set dark theme for space effect
+ax.set_facecolor('black')
+plt.show()
 
 
 #-----------------------------Plotting for different Proportional gains----------------------------------------#
