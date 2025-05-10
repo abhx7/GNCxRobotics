@@ -27,7 +27,8 @@
 - [KIMLAB (Kinetic Intelligent Machine LAB)‘s revolutionary three-fingered robot hand](https://www.linkedin.com/posts/ilir-aliu_who-said-you-need-%F0%9D%97%99%F0%9D%97%9C%F0%9D%97%A9%F0%9D%97%98-fingers-paper-ugcPost-7311436470605561856-ZpSR/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [SLAM Handbook: A Must-Read for Robotics Enthusiasts!](https://www.linkedin.com/posts/enzo-ghisoni-robotics_robotics-slam-activity-7313168361721348096-bpr0/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [Foundation Models for Robotics Applications](https://www.linkedin.com/posts/enzo-ghisoni-robotics_ai-robotics-activity-7315704944609714177-Vo1i?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
-  
+- [Deep Variational Bayes Filter](https://www.linkedin.com/posts/ilir-aliu_a-quiet-ai-breakthrough-just-happened-in-ugcPost-7326492965869117440-dz67/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
+- [Apollo Guidance Computer](https://www.linkedin.com/posts/colmdougan_the-apollo-guidance-computer-agc-developed-activity-7324174302809907201-2frA/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ), developed at MIT
 ### Off Topics
 - [Inverse Kinematics](https://www.linkedin.com/posts/mvlino_inverse-kinematics-solution-activity-7293712728077049856-MWGk/?utm_source=share&utm_medium=member_android)
 - [Work Energy in Dynamical Systems](https://www.linkedin.com/posts/lonny-thompson_work-energy-principles-to-solve-dynamic-motion-activity-7311702917307072513-HPPT/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
