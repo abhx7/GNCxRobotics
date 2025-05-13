@@ -29,6 +29,8 @@
 - [Foundation Models for Robotics Applications](https://www.linkedin.com/posts/enzo-ghisoni-robotics_ai-robotics-activity-7315704944609714177-Vo1i?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [Deep Variational Bayes Filter](https://www.linkedin.com/posts/ilir-aliu_a-quiet-ai-breakthrough-just-happened-in-ugcPost-7326492965869117440-dz67/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [Apollo Guidance Computer](https://www.linkedin.com/posts/colmdougan_the-apollo-guidance-computer-agc-developed-activity-7324174302809907201-2frA/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ), developed at MIT
+- [Starling Formation-Flying Experiment](https://www.linkedin.com/posts/simone-d-amico-0b4a873_nasa-starling-swarm-ugcPost-7327061392518217728-9DG0/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
+ 
 ### Off Topics
 - [Inverse Kinematics](https://www.linkedin.com/posts/mvlino_inverse-kinematics-solution-activity-7293712728077049856-MWGk/?utm_source=share&utm_medium=member_android)
 - [Work Energy in Dynamical Systems](https://www.linkedin.com/posts/lonny-thompson_work-energy-principles-to-solve-dynamic-motion-activity-7311702917307072513-HPPT/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
