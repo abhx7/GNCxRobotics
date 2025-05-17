@@ -30,7 +30,12 @@
 - [Deep Variational Bayes Filter](https://www.linkedin.com/posts/ilir-aliu_a-quiet-ai-breakthrough-just-happened-in-ugcPost-7326492965869117440-dz67/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [Apollo Guidance Computer](https://www.linkedin.com/posts/colmdougan_the-apollo-guidance-computer-agc-developed-activity-7324174302809907201-2frA/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ), developed at MIT
 - [Starling Formation-Flying Experiment](https://www.linkedin.com/posts/simone-d-amico-0b4a873_nasa-starling-swarm-ugcPost-7327061392518217728-9DG0/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
- 
+- [Simulated Autopilot Altitude Climb using LQR in MATLAB](https://www.linkedin.com/posts/thejash-gowda-k-43398420a_studentproject-matlab-controlsystems-activity-7327342164328243200-M_wT/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
+- [Mastering PID Controllers with Root Locus](https://www.linkedin.com/posts/premkumar-k-5b4b57122_pid-root-locus-activity-7328411285627244545-R4_Z/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
+- [Simulation Project: Rendezvous & Docking with Tumbling Space Debris](https://www.linkedin.com/posts/jay-suryawanshi-58325b330_spacedebris-docking-rendezvous-activity-7327814403385413632-Xytq/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
+- [diverged solution of a craft with 10 Mach and a dynamic mesh](https://www.linkedin.com/posts/ankurdev8980aa17a_a-lot-of-things-can-go-wrong-in-your-set-activity-7327216357341638658-lq9Y/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
+
+
 ### Off Topics
 - [Inverse Kinematics](https://www.linkedin.com/posts/mvlino_inverse-kinematics-solution-activity-7293712728077049856-MWGk/?utm_source=share&utm_medium=member_android)
 - [Work Energy in Dynamical Systems](https://www.linkedin.com/posts/lonny-thompson_work-energy-principles-to-solve-dynamic-motion-activity-7311702917307072513-HPPT/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
