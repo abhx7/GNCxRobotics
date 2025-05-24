@@ -10,7 +10,7 @@
 - PID (Proportional-Integral-Derivative) Control
 
 ### Courses
-- [Visual Autonomous Navigation](https://www.linkedin.com/posts/enzo-ghisoni-robotics_robotics-activity-7313530619362258945-Bclp/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
+-
 
 ### Tools
 - [𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐟𝐨𝐫 𝐑𝐨𝐛𝐨𝐭 𝐒𝐢𝐦𝐮𝐥𝐚𝐭𝐢𝐨𝐧𝐬](https://www.linkedin.com/posts/parthkanate_l047-robotics-simulationtools-activity-7314255418602479617-GpDc/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
@@ -40,3 +40,6 @@
 ## Navigation
 
 - [Earth-to-Moon Transfer Optimization Project](https://www.linkedin.com/posts/jon-mathews_earth-to-moon-transfer-optimization-project-activity-7331491184277651457-WdE8/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
+
+### Courses
+- [Visual Autonomous Navigation](https://www.linkedin.com/posts/enzo-ghisoni-robotics_robotics-activity-7313530619362258945-Bclp/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
