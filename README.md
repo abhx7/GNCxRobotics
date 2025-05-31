@@ -17,7 +17,8 @@
 - [𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐟𝐨𝐫 𝐑𝐨𝐛𝐨𝐭 𝐒𝐢𝐦𝐮𝐥𝐚𝐭𝐢𝐨𝐧𝐬](https://www.linkedin.com/posts/parthkanate_l047-robotics-simulationtools-activity-7314255418602479617-GpDc/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [Delta-v Heatmaps, Porkchop Plots, and the Tools of an Astrogator](https://www.linkedin.com/posts/daniil-galakhov_space-spaceflight-astrodynamics-ugcPost-7326974338367119360-pK10/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [Optimal Control with CasADi](https://www.linkedin.com/posts/csingh27_optimal-control-with-casadi-10-robot-activity-7331212255696404480-MeRv/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ) 🚀
-    
+- Do you miss a lightweight [3D animation tool](https://medium.com/geekculture/3d-animations-made-simple-with-matlab-visualizing-flight-test-data-and-simulation-results-ed399cdcc711) in MATLAB® (MathWorks) to help you visualize the complicated motion and dynamics of an aircraft ✈️?
+      
 ### Interesting Work
 - [Linear Quadratic Regulator (LQR) control for stabilized flight and a Kalman Filter for robust state estimation under noise](https://www.linkedin.com/posts/parthmotaphale_aerospace-aerospaceengineering-guidancecontrol-activity-7308203299973865473-c8TT/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [Vehicle Dynamics with a Simple Model](https://www.linkedin.com/posts/krishna-teja-7005aa158_simscape-multibody-vehicledynamics-ugcPost-7312343381127372801-stKA/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
