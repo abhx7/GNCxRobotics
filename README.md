@@ -60,6 +60,7 @@
 
 - 🚀 How I [transitioned from Mechanical Engg. to Robotics Software Engg.](https://www.linkedin.com/posts/csingh27_robotics-careertransition-mechanicalengineering-activity-7334473735007068160-916A/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)🌟
 - [Horizon Reduction that speeds up training for long-horizon robot manipulation tasks](https://www.linkedin.com/posts/ilir-aliu_most-robot-tasks-take-forever-to-train-what-ugcPost-7336914619678035968-GLxV/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
+- [UAS simulation and algorithm development using the powerful tools within Matlab and Simulink](https://www.linkedin.com/posts/carotenuto-antonio2001_unmanned-aircraft-systems-activity-7336300786286579712-eKyP/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 
 ### Tools
 - Before you buy sensors or build motors, you can test everything virtually physics, environments, cameras, even full AI models - [Robotics Tools](https://www.linkedin.com/posts/parthkanate_l047-robotics-simulationtools-activity-7314255418602479617-GpDc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
