@@ -52,7 +52,10 @@
 - [a Sun-perturbed, low-energy transfer from Earth to lunar orbit](https://www.linkedin.com/posts/professorross_spaceexploration-lunarmission-orbitalmechanics-ugcPost-7335311298194251776-47TY/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [Earth-to-Moon Transfer Optimization Project](https://www.linkedin.com/posts/jon-mathews_earth-to-moon-transfer-optimization-project-activity-7331491184277651457-WdE8/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - The Laplace definition of [sphere of influence](https://www.linkedin.com/posts/federico-spada255_the-laplace-definition-of-sphere-of-influence-activity-7336786936268738560-o5e8/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ) formalizes the intuitive idea of a region where a celestial body's gravity dominates locally over that of a distant, more massive object. 
- 
+- Revisiting the [Risk Assessment of a Spacecraft Flagged with 98% Collision Probability](https://www.linkedin.com/posts/yema-paul-503851256_revisiting-the-risk-assessment-of-a-spacecraft-activity-7336754528354009088-XqWW/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
+- [autonomous pose estimation for derelict satellites](https://www.linkedin.com/posts/batu-candan_spacedebris-blender-spacerobotics-activity-7332640750511255552-EFoq/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ) like European Space Agency - ESA's ENVISAT, now a major orbital debris risk
+- 
+  
 ### Courses
 - [Visual Autonomous Navigation](https://www.linkedin.com/posts/enzo-ghisoni-robotics_robotics-activity-7313530619362258945-Bclp/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 
@@ -62,7 +65,9 @@
 - [Horizon Reduction that speeds up training for long-horizon robot manipulation tasks](https://www.linkedin.com/posts/ilir-aliu_most-robot-tasks-take-forever-to-train-what-ugcPost-7336914619678035968-GLxV/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [UAS simulation and algorithm development using the powerful tools within Matlab and Simulink](https://www.linkedin.com/posts/carotenuto-antonio2001_unmanned-aircraft-systems-activity-7336300786286579712-eKyP/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - A [self-balancing bicycle](https://www.linkedin.com/posts/codingscientist_stm32-robotics-mechatronics-activity-7336599170021003264-B7tj/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ) built using an STM32 microcontroller, MPU6050 gyro-accelerometer, two wheels, and a clever weight-balancing mechanism
-- [Vehicle Mechanics course](https://www.linkedin.com/posts/lavinozona-francesco_meccanicaveicoloreport-activity-7336030688204185600-jgjp/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ
+- [Vehicle Mechanics course](https://www.linkedin.com/posts/lavinozona-francesco_meccanicaveicoloreport-activity-7336030688204185600-jgjp/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 
 ### Tools
 - Before you buy sensors or build motors, you can test everything virtually physics, environments, cameras, even full AI models - [Robotics Tools](https://www.linkedin.com/posts/parthkanate_l047-robotics-simulationtools-activity-7314255418602479617-GpDc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
+- Exploring [aerial robotics simulation](https://www.linkedin.com/posts/enzo-ghisoni-robotics_robotics-drone-ros-activity-7338905129573568513-cPQ-/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)? 
+
