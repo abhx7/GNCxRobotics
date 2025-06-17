@@ -66,6 +66,7 @@
 - [UAS simulation and algorithm development using the powerful tools within Matlab and Simulink](https://www.linkedin.com/posts/carotenuto-antonio2001_unmanned-aircraft-systems-activity-7336300786286579712-eKyP/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - A [self-balancing bicycle](https://www.linkedin.com/posts/codingscientist_stm32-robotics-mechatronics-activity-7336599170021003264-B7tj/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ) built using an STM32 microcontroller, MPU6050 gyro-accelerometer, two wheels, and a clever weight-balancing mechanism
 - [Vehicle Mechanics course](https://www.linkedin.com/posts/lavinozona-francesco_meccanicaveicoloreport-activity-7336030688204185600-jgjp/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
+- [One of the Best Repository to Start ROS 2 with Python Examples](https://www.linkedin.com/feed/update/urn:li:activity:7340347344426627072/)
 
 ### Tools
 - Before you buy sensors or build motors, you can test everything virtually physics, environments, cameras, even full AI models - [Robotics Tools](https://www.linkedin.com/posts/parthkanate_l047-robotics-simulationtools-activity-7314255418602479617-GpDc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
