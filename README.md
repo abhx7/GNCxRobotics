@@ -54,7 +54,7 @@
 - The Laplace definition of [sphere of influence](https://www.linkedin.com/posts/federico-spada255_the-laplace-definition-of-sphere-of-influence-activity-7336786936268738560-o5e8/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ) formalizes the intuitive idea of a region where a celestial body's gravity dominates locally over that of a distant, more massive object. 
 - Revisiting the [Risk Assessment of a Spacecraft Flagged with 98% Collision Probability](https://www.linkedin.com/posts/yema-paul-503851256_revisiting-the-risk-assessment-of-a-spacecraft-activity-7336754528354009088-XqWW/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [autonomous pose estimation for derelict satellites](https://www.linkedin.com/posts/batu-candan_spacedebris-blender-spacerobotics-activity-7332640750511255552-EFoq/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ) like European Space Agency - ESA's ENVISAT, now a major orbital debris risk
-- 
+- [Trajectory design and optimization of a free-return lunar flyby mission](https://www.linkedin.com/pulse/trajectory-design-optimization-free-return-lunar-flyby-federico-spada/)
   
 ### Courses
 - [Visual Autonomous Navigation](https://www.linkedin.com/posts/enzo-ghisoni-robotics_robotics-activity-7313530619362258945-Bclp/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
