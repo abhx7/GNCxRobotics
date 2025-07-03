@@ -42,6 +42,7 @@
 - [Work Energy in Dynamical Systems](https://www.linkedin.com/posts/lonny-thompson_work-energy-principles-to-solve-dynamic-motion-activity-7311702917307072513-HPPT/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [3D based World Model Reconstruction](https://www.linkedin.com/posts/tongduyson_autonomousdriving-adas-ai-activity-7313200198883684353-6G-u?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - 🚗💨 Why [Brake Systems](https://www.linkedin.com/posts/manas-lele-731659249_formula1-engineering-motorsport-activity-7332405967583612928-j1QZ/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ) in F1 Are True Engineering Marvels 🏎️🔧
+- [From Static GN&C Models to Learning, Mission-Aware Systems powered by Agentic AI](https://www.linkedin.com/posts/mohammad-a-edaibat-42656719_gnandc-aerospaceengineering-aiinspace-activity-7346414382865686529-vnJg/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 
 ## Guidance 
 - [Simulation Project: Rendezvous & Docking with Tumbling Space Debris](https://www.linkedin.com/posts/jay-suryawanshi-58325b330_spacedebris-docking-rendezvous-activity-7327814403385413632-Xytq/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
@@ -70,5 +71,8 @@
 
 ### Tools
 - Before you buy sensors or build motors, you can test everything virtually physics, environments, cameras, even full AI models - [Robotics Tools](https://www.linkedin.com/posts/parthkanate_l047-robotics-simulationtools-activity-7314255418602479617-GpDc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
-- Exploring [aerial robotics simulation](https://www.linkedin.com/posts/enzo-ghisoni-robotics_robotics-drone-ros-activity-7338905129573568513-cPQ-/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)? 
+- Exploring [aerial robotics simulation](https://www.linkedin.com/posts/enzo-ghisoni-robotics_robotics-drone-ros-activity-7338905129573568513-cPQ-/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)?
+
+### Courses
+- [Full Linear Algebra Guide for Robotics](https://www.linkedin.com/posts/csingh27_robotics-linearalgebra-roboticssoftware-activity-7342527773325836288-Wsb-/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 
