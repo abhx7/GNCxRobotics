@@ -37,6 +37,7 @@
 - Why [Kalman Filters](https://www.linkedin.com/posts/manojeedhara_kalmanfilter-sensorfusion-particlefilter-activity-7333221286397071360-UGJm/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ) in 2025?
 - Choosing [MCU](https://www.linkedin.com/posts/prasad-deshmukh-595b36205_2abrembeddednotes-a-b-activity-7334088687229566979-OaZ_/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)? STM32 vs ESP32 vs nRF52 — A Embedded Engineer's Perspective
 - 🚀 From Nonlinear Chaos to Stable Flight: The Power of [Linearization & LQR Control](https://www.linkedin.com/posts/md-rifat-islam-780974349_linearization-activity-7333535469474873347-yvHs/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)!
+- 🚀 [AUV Depth Control](https://www.linkedin.com/posts/safa-bazrafshan-04100a29a_controlsystems-matlab-auv-activity-7347626030578171904-YHUi/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ) — From Classical to Intelligent Controllers
    
 ### Off Topics
 - [Inverse Kinematics](https://www.linkedin.com/posts/mvlino_inverse-kinematics-solution-activity-7293712728077049856-MWGk/?utm_source=share&utm_medium=member_android)
