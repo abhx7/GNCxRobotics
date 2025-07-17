@@ -14,7 +14,7 @@
 ### Courses
 - What Engineers Do | Control Systems in Practice
 [![Control Systems](https://img.youtube.com/vi/ApMz1-MK9IQ/0.jpg)](https://www.youtube.com/watch?v=ApMz1-MK9IQ&list=PLn8PRpmsu08pFBqgd_6Bi7msgkWFKL33b) 
-- [![Control Bootcamp: Overview ](https://img.youtube.com/vi/Pi7l8mMjYVE/0.jpg)](https://www.youtube.com/watch?v=Pi7l8mMjYVE&list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m)
+[![Control Bootcamp: Overview ](https://img.youtube.com/vi/Pi7l8mMjYVE/0.jpg)](https://www.youtube.com/watch?v=Pi7l8mMjYVE&list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m)
 - [Illinois Robotic Systems Course](https://motion.cs.illinois.edu/RoboticSystems/OptimalControl.html)
 - [Convex Optimisation Lectures](https://www.youtube.com/playlist?list=PL3940DD956CDF0622)
 
