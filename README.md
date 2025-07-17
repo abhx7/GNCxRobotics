@@ -15,6 +15,7 @@
 - What [![Control Systems](https://img.youtube.com/vi/ApMz1-MK9IQ/0.jpg)](https://www.youtube.com/watch?v=ApMz1-MK9IQ&list=PLn8PRpmsu08pFBqgd_6Bi7msgkWFKL33b) Engineers Do | Control Systems in Practice
 - [![Control Bootcamp](https://img.youtube.com/vi/Pi7l8mMjYVE/0.jpg)](https://www.youtube.com/watch?v=Pi7l8mMjYVE&list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m): Overview
 - [Illinois Robotic Systems Course](https://motion.cs.illinois.edu/RoboticSystems/OptimalControl.html)
+- [Convex Optimisation Lectures](https://www.youtube.com/playlist?list=PL3940DD956CDF0622)
 
 ### Tools
 - [𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐟𝐨𝐫 𝐑𝐨𝐛𝐨𝐭 𝐒𝐢𝐦𝐮𝐥𝐚𝐭𝐢𝐨𝐧𝐬](https://www.linkedin.com/posts/parthkanate_l047-robotics-simulationtools-activity-7314255418602479617-GpDc/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
