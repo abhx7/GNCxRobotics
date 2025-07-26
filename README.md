@@ -83,4 +83,4 @@
 
 ### Courses
 - [Full Linear Algebra Guide for Robotics](https://www.linkedin.com/posts/csingh27_robotics-linearalgebra-roboticssoftware-activity-7342527773325836288-Wsb-/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
-
+- [University of Michigan’s "Robotics 501: Mathematics for Robotics"](https://github.com/michiganrobotics/rob501)
