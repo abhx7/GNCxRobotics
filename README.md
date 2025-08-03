@@ -50,6 +50,7 @@
 - [3D based World Model Reconstruction](https://www.linkedin.com/posts/tongduyson_autonomousdriving-adas-ai-activity-7313200198883684353-6G-u?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - 🚗💨 Why [Brake Systems](https://www.linkedin.com/posts/manas-lele-731659249_formula1-engineering-motorsport-activity-7332405967583612928-j1QZ/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ) in F1 Are True Engineering Marvels 🏎️🔧
 - [From Static GN&C Models to Learning, Mission-Aware Systems powered by Agentic AI](https://www.linkedin.com/posts/mohammad-a-edaibat-42656719_gnandc-aerospaceengineering-aiinspace-activity-7346414382865686529-vnJg/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
+- [Kinematics in Robotics Software 🤖](https://www.linkedin.com/posts/csingh27_robotics-kinematics-softwareengineering-activity-7357426031244234752-7I-i/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 
 ## Guidance 
 - [Simulation Project: Rendezvous & Docking with Tumbling Space Debris](https://www.linkedin.com/posts/jay-suryawanshi-58325b330_spacedebris-docking-rendezvous-activity-7327814403385413632-Xytq/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
