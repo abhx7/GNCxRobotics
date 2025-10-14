@@ -149,6 +149,41 @@ Optimal Control
 - **Inverse Optimal Control / IRL**: Infer cost functions from observed behavior.
 
 ---
+## Learning
+
+Trajectory Planner  (Direct Optimal Control)
+        ↓
+Trajectory Tracker  (Classical / Feedback Control)
+        ↓
+Low-level Actuators
+
+
+Where They Sit Conceptually
+
+Classical Control → about regulation:
+“How do I make the system behave well?”
+
+Direct/Indirect Methods → about optimization:
+“What’s the best possible way for the system to behave?”
+
+Control Theory → Stability, Feedback, Robustness
+Optimal Control → Performance, Optimality, Trajectory Design
+
+
+| Analogy                            | Indirect                                              | Direct                                                             |      |    |
+| ---------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------ | ---- | -- |
+| You have an equation (x^2 - 4 = 0) | Derive formula (x = ±2) first, then plug numbers.     | Skip derivation, directly ask the computer: “Find x that minimizes | x²–4 | .” |
+| Workflow                           | “Derive then compute.”                                | “Compute without derivation.”                                      |      |    |
+| Result                             | Integrator output satisfying analytic PMP conditions. | Optimizer output satisfying discretized constraints.               |      |    |
+| ------------ | -------------------------------------------- | ------------------------------------------------ |
+| Accuracy     | Very high (exact satisfaction of PMP)        | Depends on discretization resolution             |
+| Setup effort | High (derive Hamiltonian equations manually) | Easier (automatic transcription)                 |
+| Robustness   | Sensitive to initial guesses                 | Much more robust  comparitively                  |
+| Constraints  | Hard to impose                               | Naturally handled                                |
+| Popularity   | More theoretical                             | Dominates in practice (esp. aerospace, robotics) |
+
+
+---
 
 ## 📚 References
 - Kirk, D. E., *Optimal Control Theory: An Introduction*, Prentice-Hall.  
@@ -160,6 +195,6 @@ Optimal Control
 ---
 
 ## ✍️ Author
-**Abhigyan Roy**  
+<!-- **Abhigyan Roy**  
 Dual Degree, Aerospace Engineering – IIT Madras  
-Focus: Guidance, Navigation & Control (GNC), Optimal Control, and Space Systems
+Focus: Guidance, Navigation & Control (GNC), Optimal Control, and Space Systems -->
