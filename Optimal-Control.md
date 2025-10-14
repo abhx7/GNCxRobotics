@@ -8,7 +8,7 @@ Optimal control is the science of determining **control inputs** that drive a dy
 
 Given a system governed by:
 \[
-\dot{x}(t) = f(x(t), u(t), t), \quad x(0) = x_0
+$$\dot{x}(t) = f(x(t), u(t), t), \quad x(0) = x_0$$
 \]
 
 and a cost functional:
