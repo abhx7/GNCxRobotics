@@ -37,9 +37,9 @@ the goal is to find \(u^*(t)\) that minimizes \(J\) while satisfying system dyna
 ### 🧮 3.1 Classical Methods
 - **Calculus of Variations**: Early foundation — derive Euler–Lagrange equations by minimizing a functional.  
 - **Pontryagin’s Minimum Principle (PMP)**: Provides necessary conditions for optimality; introduces costate (adjoint) equations.  
-  \[
-  \dot{\lambda} = -\frac{\partial H}{\partial x}, \quad \frac{\partial H}{\partial u} = 0
-  \]
+  
+  $$\dot{\lambda} = -\frac{\partial H}{\partial x}, \quad \frac{\partial H}{\partial u} = 0$$
+  
   where \(H\) is the Hamiltonian.  
 - Works best for **analytically tractable** systems (e.g., LQR, Brachistochrone, minimum fuel trajectories).
 
@@ -71,7 +71,9 @@ the goal is to find \(u^*(t)\) that minimizes \(J\) while satisfying system dyna
 
 ### 🔁 3.4 Dynamic Programming (DP)
 - Based on **Bellman’s Principle**:
-  $$   V(x,t) = \min_u \big[L(x,u,t) + V(f(x,u,t), t+\Delta t)\big] $$
+  
+  $$V(x,t) = \min_u \big[L(x,u,t) + V(f(x,u,t), t+\Delta t)\big]$$
+  
 - Guarantees **global optimality**.
 - **Limitations**: Computational explosion with state dimension (“curse of dimensionality”).  
 - **Modern use**: Basis for **Reinforcement Learning** and **Approximate Dynamic Programming (ADP)**.
