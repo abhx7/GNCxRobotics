@@ -7,14 +7,10 @@ Optimal control is the science of determining **control inputs** that drive a dy
 ## 🧠 1. What Is Optimal Control?
 
 Given a system governed by:
-\[
 $$\dot{x}(t) = f(x(t), u(t), t), \quad x(0) = x_0$$
-\]
 
 and a cost functional:
-\[
-J = \Phi(x(t_f), t_f) + \int_{t_0}^{t_f} L(x(t), u(t), t) \, dt
-\]
+$$ J = \Phi(x(t_f), t_f) + \int_{t_0}^{t_f} L(x(t), u(t), t) \, dt $$
 
 the goal is to find \(u^*(t)\) that minimizes \(J\) while satisfying system dynamics and constraints.
 
@@ -73,9 +69,7 @@ the goal is to find \(u^*(t)\) that minimizes \(J\) while satisfying system dyna
 
 ### 🔁 3.4 Dynamic Programming (DP)
 - Based on **Bellman’s Principle**:
-  \[
-  V(x,t) = \min_u \big[L(x,u,t) + V(f(x,u,t), t+\Delta t)\big]
-  \]
+  $$   V(x,t) = \min_u \big[L(x,u,t) + V(f(x,u,t), t+\Delta t)\big] $$
 - Guarantees **global optimality**.
 - **Limitations**: Computational explosion with state dimension (“curse of dimensionality”).  
 - **Modern use**: Basis for **Reinforcement Learning** and **Approximate Dynamic Programming (ADP)**.
