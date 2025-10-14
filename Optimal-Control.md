@@ -119,6 +119,27 @@ the goal is to find \(u^*(t)\) that minimizes \(J\) while satisfying system dyna
 Small-scale Real-world, complex
 problems nonlinear systems
 
+Optimal Control
+│
+├── Classical / Analytical
+│   ├── Calculus of Variations
+│   └── Pontryagin’s Minimum Principle
+│
+├── Numerical
+│   ├── Indirect Methods
+│   └── Direct Methods
+│
+├── Dynamic Programming
+│   └── Bellman Equation / HJB
+│
+├── Model Predictive Control
+│
+└── Reinforcement Learning
+    ├── Value-based
+    ├── Policy-based
+    └── Actor–Critic / Hybrid
+
+
 ---
 
 ## 🧩 5. Modern Trends
