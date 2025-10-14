@@ -7,10 +7,12 @@ Optimal control is the science of determining **control inputs** that drive a dy
 ## 🧠 1. What Is Optimal Control?
 
 Given a system governed by:
+
 $$\dot{x}(t) = f(x(t), u(t), t), \quad x(0) = x_0$$
 
 and a cost functional:
-$$ J = \Phi(x(t_f), t_f) + \int_{t_0}^{t_f} L(x(t), u(t), t) \, dt $$
+
+$$J = \Phi(x(t_f), t_f) + \int_{t_0}^{t_f} L(x(t), u(t), t) \, dt$$
 
 the goal is to find \(u^*(t)\) that minimizes \(J\) while satisfying system dynamics and constraints.
 
