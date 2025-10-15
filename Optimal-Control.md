@@ -14,7 +14,7 @@ and a cost functional:
 
 $$J = \Phi(x(t_f), t_f) + \int_{t_0}^{t_f} L(x(t), u(t), t) \, dt$$
 
-the goal is to find \(u^*(t)\) that minimizes \(J\) while satisfying system dynamics and constraints.
+the goal is to find $$u^*(t)$$ that minimizes $$J$$ while satisfying system dynamics and constraints.
 
 ---
 
@@ -24,10 +24,8 @@ the goal is to find \(u^*(t)\) that minimizes \(J\) while satisfying system dyna
 |-----------|------------|----------------|----------|
 | **Classical Control** | Analytic or feedback laws derived for specific system types (LQR, PID, PMP for simple systems). | Calculus of Variations, Pontryagin’s Minimum Principle | Limited to small systems or linearized dynamics. |
 | **Indirect Methods** | Derive and solve necessary conditions (Euler–Lagrange / PMP) directly. | Shooting, Collocation | Very accurate, but numerically sensitive and hard for complex systems. |
-| **Direct Methods** | Transcribe the optimal control problem into a **finite-dimensional nonlinear optimization** problem. | Direct Shooting, Collocation, Pseudospectral methods | Dominant in practice due to robustness and software support. |
-| **Dynamic Programming (DP)** | Breaks problem into subproblems using Bellman’s principle of optimality. | Value Iteration, Policy Iteration | Computationally expensive; curse of dimensionality. |
-| **Model Predictive Control (MPC)** | Repeatedly solves a finite-horizon optimal control problem in real time. | Quadratic Programming, NMPC | Widely used in robotics, aerospace, and process control. |
-| **Reinforcement Learning (RL)** | Learns the optimal policy via interaction, without explicit model. | Q-Learning, Policy Gradient, Actor–Critic, DDPG, PPO | Powerful for high-dimensional or uncertain systems. |
+| **Direct Methods** | Transcribe the optimal control problem into a **finite-dimensional nonlinear optimization** problem. | Direct Shooting, Collocation, Pseudospectral methods, MPC, Quadratic Programming | Dominant in practice due to robustness and software support. |
+| **Reinforcement Learning (RL)** | Learns the optimal policy via interaction, without explicit model. | DP, Q-Learning, Policy Gradient, Actor–Critic, DDPG, PPO | Powerful for high-dimensional or uncertain systems. |
 | **Hybrid / Data-Driven Methods** | Combine optimal control theory with learning or data-based adaptation. | MPC + RL, Imitation Learning | Enables control in unknown or changing environments. |
 
 ---
@@ -67,20 +65,7 @@ the goal is to find \(u^*(t)\) that minimizes \(J\) while satisfying system dyna
 - **Popular solvers**: IPOPT, SNOPT, CasADi, ACADO, PSOPT, GPOPS-II.  
 - **Used in**: Aerospace trajectory optimization, robotics motion planning, energy systems.
 
----
-
-### 🔁 3.4 Dynamic Programming (DP)
-- Based on **Bellman’s Principle**:
-  
-  $$V(x,t) = \min_u \big[L(x,u,t) + V(f(x,u,t), t+\Delta t)\big]$$
-  
-- Guarantees **global optimality**.
-- **Limitations**: Computational explosion with state dimension (“curse of dimensionality”).  
-- **Modern use**: Basis for **Reinforcement Learning** and **Approximate Dynamic Programming (ADP)**.
-
----
-
-### 🔮 3.5 Model Predictive Control (MPC)
+#### Model Predictive Control (MPC)
 - Solves a **finite-horizon OCP online** at every timestep, applying only the first control input.  
 - Adapts dynamically to disturbances.  
 - **Types**:
@@ -90,7 +75,7 @@ the goal is to find \(u^*(t)\) that minimizes \(J\) while satisfying system dyna
 
 ---
 
-### 🤖 3.6 Reinforcement Learning (RL)
+### 🤖 3.4 Reinforcement Learning (RL)
 - Learns optimal policy \(u = \pi(x)\) via experience rather than explicit models.
 - Derived from **DP** and **Optimal Control**.
 - **Methods**:
@@ -100,7 +85,15 @@ the goal is to find \(u^*(t)\) that minimizes \(J\) while satisfying system dyna
   - *Model-based RL*: Uses learned dynamics for prediction (links to MPC).  
 - **Advantages**: Works for high-dimensional, nonlinear, stochastic systems.  
 - **Limitations**: Data hungry; lacks formal guarantees of stability.
-
+ 
+##### Dynamic Programming (DP)
+- Based on **Bellman’s Principle**:
+  
+  $$V(x,t) = \min_u \big[L(x,u,t) + V(f(x,u,t), t+\Delta t)\big]$$
+  
+- Guarantees **global optimality**.
+- **Limitations**: Computational explosion with state dimension (“curse of dimensionality”).  
+- **Modern use**: Basis for **Reinforcement Learning** and **Approximate Dynamic Programming (ADP)**.
 ---
 
 ## 🌐 4. Summary Landscape
@@ -112,12 +105,11 @@ the goal is to find \(u^*(t)\) that minimizes \(J\) while satisfying system dyna
      ┌─────────────────┴──────────────────┐
      │                                    │
  Analytical                         Numerical
-
-
-(Classical / PMP) (Indirect / Direct / DP / RL)
-│ │
+(Classical / PMP)               (Indirect / Direct / DP / RL)
+      │ │
 Small-scale Real-world, complex
 problems nonlinear systems
+
 
 Optimal Control
 │
@@ -128,16 +120,14 @@ Optimal Control
 ├── Numerical
 │   ├── Indirect Methods
 │   └── Direct Methods
-│
-├── Dynamic Programming
-│   └── Bellman Equation / HJB
-│
-├── Model Predictive Control
+│        ├── Model Predictive Control
 │
 └── Reinforcement Learning
     ├── Value-based
     ├── Policy-based
     └── Actor–Critic / Hybrid
+    └── Dynamic Programming
+│       └── Bellman Equation / HJB
 
 
 ---
