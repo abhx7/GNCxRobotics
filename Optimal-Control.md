@@ -105,7 +105,7 @@ the goal is to find $$u^*(t)$$ that minimizes $$J$$ while satisfying system dyna
          ┌─────────────────┴──────────────────┐
          │                                    │
          Analytical                     Numerical
-    (Classical / PMP)            (Indirect / Direct / DP / RL)
+    (Classical / Indirect)            (Indirect / Direct / DP / RL)
            │ │
     Small-scale Real-world, complex
     problems nonlinear systems
@@ -120,8 +120,12 @@ the goal is to find $$u^*(t)$$ that minimizes $$J$$ while satisfying system dyna
     │
     ├── Numerical
     │   ├── Indirect Methods
+    |       ├── Single Shooting
+    │       └── Multiple Shooting
     │   └── Direct Methods
-    │        ├── Model Predictive Control
+    |        ├── Collocation Mathods
+    │        ├── Pseudospectral Methods
+    │        └── Model Predictive Control
     │
     └── Reinforcement Learning
         ├── Value-based
