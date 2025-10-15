@@ -112,23 +112,23 @@ the goal is to find $$u^*(t)$$ that minimizes $$J$$ while satisfying system dyna
 
      
 
-Optimal Control
-│
-├── Classical / Analytical
-│   ├── Calculus of Variations
-│   └── Pontryagin’s Minimum Principle
-│
-├── Numerical
-│   ├── Indirect Methods
-│   └── Direct Methods
-│        ├── Model Predictive Control
-│
-└── Reinforcement Learning
-    ├── Value-based
-    ├── Policy-based
-    └── Actor–Critic / Hybrid
-    └── Dynamic Programming
-       └── Bellman Equation / HJB
+    Optimal Control
+    │
+    ├── Classical / Analytical
+    │   ├── Calculus of Variations
+    │   └── Pontryagin’s Minimum Principle
+    │
+    ├── Numerical
+    │   ├── Indirect Methods
+    │   └── Direct Methods
+    │        ├── Model Predictive Control
+    │
+    └── Reinforcement Learning
+        ├── Value-based
+        ├── Policy-based
+        └── Actor–Critic / Hybrid
+        └── Dynamic Programming
+           └── Bellman Equation / HJB
 
 
 ---
@@ -168,29 +168,30 @@ Each layer addresses a different question about *how* to generate control action
 
 #### All modern control strategies can be understood along three axes:
 
-| Axis | Range | Meaning |
-|------|-------|----------|
-| **Model Knowledge** | Known → Unknown | From physics-based equations (PMP, MPC) to model-free learning (RL). |
-| **Feedback Adaptivity** | Open-loop → Closed-loop → Online | From open-loop optimal trajectories to real-time MPC and RL feedback. |
-| **Computation Style** | Analytical → Numerical → Learning | From deriving equations to solving optimizations to learning from data. |
+    | Axis | Range | Meaning |
+    |------|-------|----------|
+    | **Model Knowledge** | Known → Unknown | From physics-based equations (PMP, MPC) to model-free learning (RL). |
+    | **Feedback Adaptivity** | Open-loop → Closed-loop → Online | From open-loop optimal trajectories to real-time MPC and RL feedback. |
+    | **Computation Style** | Analytical → Numerical → Learning | From deriving equations to solving optimizations to learning from data. |
 
 Thus, the evolution of control can be visualized as:
 
-Classical → Indirect → Direct → MPC → RL → Data-Driven Hybrid
-— a smooth continuum from *analytic derivation* to *adaptive intelligence*.
+    Classical → Indirect → Direct → MPC → RL → Data-Driven Hybrid
+  — a smooth continuum from *analytic derivation* to *adaptive intelligence*.
 
 
 #### Where They Sit Conceptually
 
-Classical Control → about regulation and stability:
-“How do I make the system behave well?”
-
-Direct/Indirect Methods (Optimal Control) → about optimization:
-“What’s the best possible way for the system to behave?”  (Trajectory design and performance)
-
+    Classical Control → about regulation and stability:
+    “How do I make the system behave well?”
+    
+    Direct/Indirect Methods (Optimal Control) → about optimization:
+    “What’s the best possible way for the system to behave?”  (Trajectory design and performance)
 
 Control Theory → Stability, Feedback, Robustness
+
 Optimal Control → Performance, Optimality, Trajectory Design
+
 - **Reinforcement Learning →** Experience-based improvement (“Learn optimal behavior from data.”)  
 - **Hybrid / Data-Driven →** Real-world adaptability (“Blend models with learning for robustness.”)
 ---
