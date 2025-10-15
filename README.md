@@ -21,6 +21,8 @@
 - [Convex Optimisation Lectures](https://www.youtube.com/playlist?list=PL3940DD956CDF0622)
 - [Linear ALgebra](https://www.linkedin.com/posts/josip-ivankovi%C4%87-8a655615b_in-my-free-time-i-listen-to-dr-hanias-activity-7357337815413669889-UDiU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [Fall School on MPC and RL](https://www.syscop.de/event/mpcrl25)
+- [NPTEL - Control System](https://youtube.com/playlist?list=PLyqSpQzTE6M8-wda5vbgHkMQTmu-21hRK&si=snpKbsv4crjainL9)
+- [Control System Lecture Videos by Brian Douglas](https://youtube.com/playlist?list=PLUMWjy5jgHK3j74Z5Tq6Tso1fSfVWZC8L&si=q1V98vBXbwILw8J2)
 
 ### Tools
 - [𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐟𝐨𝐫 𝐑𝐨𝐛𝐨𝐭 𝐒𝐢𝐦𝐮𝐥𝐚𝐭𝐢𝐨𝐧𝐬](https://www.linkedin.com/posts/parthkanate_l047-robotics-simulationtools-activity-7314255418602479617-GpDc/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
