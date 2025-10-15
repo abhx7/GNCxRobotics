@@ -1,4 +1,4 @@
-# 🧭 A Short Review of Optimal Control Methodologies
+# A Short Review of Optimal Control Methodologies
 
 Optimal control is the science of determining **control inputs** that drive a dynamical system from an initial to a final state **while minimizing (or maximizing) a cost functional** — often representing energy, time, deviation, or effort.
 
@@ -30,7 +30,7 @@ the goal is to find $$u^*(t)$$ that minimizes $$J$$ while satisfying system dyna
 
 ---
 
-## 🧩 3. Core Families Explained Briefly
+## 3. Core Families Explained Briefly
 
 ### 🧮 3.1 Classical Methods
 - **Calculus of Variations**: Early foundation — derive Euler–Lagrange equations by minimizing a functional.  
@@ -137,7 +137,7 @@ the goal is to find $$u^*(t)$$ that minimizes $$J$$ while satisfying system dyna
 
 ---
 
-## 🧩 5. Modern Trends
+## 🧭 5. Modern Trends
 - **Learning-based MPC**: Combine neural networks with predictive control.  
 - **Differentiable Optimal Control**: Integrate OCPs into deep learning frameworks.  
 - **Safe RL & Control Lyapunov Methods**: Enforce stability and safety constraints.  
