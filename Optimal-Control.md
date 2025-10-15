@@ -65,7 +65,7 @@ the goal is to find $$u^*(t)$$ that minimizes $$J$$ while satisfying system dyna
 - **Popular solvers**: IPOPT, SNOPT, CasADi, ACADO, PSOPT, GPOPS-II.  
 - **Used in**: Aerospace trajectory optimization, robotics motion planning, energy systems.
 
-#### Model Predictive Control (MPC)
+##### Model Predictive Control (MPC)
 - Solves a **finite-horizon OCP online** at every timestep, applying only the first control input.  
 - Adapts dynamically to disturbances.  
 - **Types**:
@@ -76,7 +76,7 @@ the goal is to find $$u^*(t)$$ that minimizes $$J$$ while satisfying system dyna
 ---
 
 ### 🤖 3.4 Reinforcement Learning (RL)
-- Learns optimal policy \(u = \pi(x)\) via experience rather than explicit models.
+- Learns optimal policy $$u = \pi(x)$$ via experience rather than explicit models.
 - Derived from **DP** and **Optimal Control**.
 - **Methods**:
   - *Value-based*: Q-learning, DQN.  
@@ -142,36 +142,65 @@ Optimal Control
 ---
 ## Learning
 
-Trajectory Planner  (Direct Optimal Control)
+Modern control design can be viewed as a *hierarchy of intelligence levels* — from analytic to data-driven.  
+Each layer addresses a different question about *how* to generate control actions:
+
+| Layer | Core Question | Typical Methods | Nature |
+|--------|----------------|------------------|---------|
+| **Classical Control** | How do I regulate the system and ensure stability? | PID, LQR, Feedback Linearization | Analytic, model-based |
+| **Indirect / Analytical Optimal Control** | What conditions must the *optimal trajectory* satisfy? | PMP, Euler–Lagrange, Shooting | Derived analytically, solved numerically |
+| **Direct / Numerical Optimal Control** | What trajectory *minimizes the cost* numerically? | Direct Collocation, Pseudospectral, MPC | Optimization-based, model-driven |
+| **Reinforcement Learning / DP** | How can I *learn* optimal behavior from experience? | DP, Q-Learning, PPO, DDPG, Actor–Critic | Data-driven, model-free or model-based |
+| **Hybrid / Data-Driven** | How can I *combine models and data* for adaptable control? | Data-driven MPC, Model-based RL, Safe RL | Integrates learning + physics |
+
+
+Trajectory Planner → (Direct / Indirect Optimal Control)
         ↓
-Trajectory Tracker  (Classical / Feedback Control)
+Trajectory Tracker → (Classical Feedback Control)
         ↓
-Low-level Actuators
+Low-Level Actuators → (Hardware Control / Implementation)
+
+---
+
+#### All modern control strategies can be understood along three axes:
+
+| Axis | Range | Meaning |
+|------|-------|----------|
+| **Model Knowledge** | Known → Unknown | From physics-based equations (PMP, MPC) to model-free learning (RL). |
+| **Feedback Adaptivity** | Open-loop → Closed-loop → Online | From open-loop optimal trajectories to real-time MPC and RL feedback. |
+| **Computation Style** | Analytical → Numerical → Learning | From deriving equations to solving optimizations to learning from data. |
+
+Thus, the evolution of control can be visualized as:
+
+Classical → Indirect → Direct → MPC → RL → Data-Driven Hybrid
+— a smooth continuum from *analytic derivation* to *adaptive intelligence*.
 
 
-Where They Sit Conceptually
+#### Where They Sit Conceptually
 
-Classical Control → about regulation:
+Classical Control → about regulation and stability:
 “How do I make the system behave well?”
 
-Direct/Indirect Methods → about optimization:
-“What’s the best possible way for the system to behave?”
+Direct/Indirect Methods (Optimal Control) → about optimization:
+“What’s the best possible way for the system to behave?”  (Trajectory design and performance)
+
 
 Control Theory → Stability, Feedback, Robustness
 Optimal Control → Performance, Optimality, Trajectory Design
+- **Reinforcement Learning →** Experience-based improvement (“Learn optimal behavior from data.”)  
+- **Hybrid / Data-Driven →** Real-world adaptability (“Blend models with learning for robustness.”)
+---
 
-
-| Analogy                            | Indirect                                              | Direct                                                             |      |    |
-| ---------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------ | ---- | -- |
-| You have an equation (x^2 - 4 = 0) | Derive formula (x = ±2) first, then plug numbers.     | Skip derivation, directly ask the computer: “Find x that minimizes | x²–4 | .” |
-| Workflow                           | “Derive then compute.”                                | “Compute without derivation.”                                      |      |    |
-| Result                             | Integrator output satisfying analytic PMP conditions. | Optimizer output satisfying discretized constraints.               |      |    |
-| ------------ | -------------------------------------------- | ------------------------------------------------ |
-| Accuracy     | Very high (exact satisfaction of PMP)        | Depends on discretization resolution             |
-| Setup effort | High (derive Hamiltonian equations manually) | Easier (automatic transcription)                 |
-| Robustness   | Sensitive to initial guesses                 | Much more robust  comparitively                  |
-| Constraints  | Hard to impose                               | Naturally handled                                |
-| Popularity   | More theoretical                             | Dominates in practice (esp. aerospace, robotics) |
+| Aspect | **Indirect Methods** | **Direct Methods** |
+|--------|-----------------------|--------------------|
+| **Analogy** | Derive formula *(x = ±2)* first, then plug in numbers. | Skip derivation — directly ask the computer: “Find x that minimizes (x²–4).” |
+| **Workflow** | “Derive then compute.” | “Compute without derivation.” |
+| **Result** | Integrator output satisfying analytic PMP conditions. | Optimizer output satisfying discretized constraints. |
+| **Accuracy** | Very high (exact satisfaction of PMP). | Depends on discretization resolution. |
+| **Setup Effort** | High — must derive Hamiltonian and costate equations manually. | Easier — automatic transcription from dynamics and cost. |
+| **Robustness** | Sensitive to initial guesses and numerical instabilities. | Much more robust in practice. |
+| **Constraints Handling** | Difficult to impose explicitly. | Naturally incorporated in the optimization problem. |
+| **Popularity** | Primarily theoretical or academic. | Dominates practical use (especially in aerospace & robotics). |
 
 
 ---
