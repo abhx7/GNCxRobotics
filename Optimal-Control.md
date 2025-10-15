@@ -67,7 +67,7 @@ the goal is to find $$u^*(t)$$ that minimizes $$J$$ while satisfying system dyna
 
 ##### Model Predictive Control (MPC)
 - Solves a **finite-horizon OCP online** at every timestep, applying only the first control input.  
-- Adapts dynamically to disturbances.  
+- Adapts dynamically to disturbances, since its a real time feedback of direct optimal control.
 - **Types**:
   - *Linear MPC*: Uses convex QP solvers.  
   - *Nonlinear MPC (NMPC)*: Solves general nonlinear OCP using direct methods.  
@@ -155,9 +155,13 @@ Each layer addresses a different question about *how* to generate control action
 
 
 Trajectory Planner → (Direct / Indirect Optimal Control)
+        
         ↓
+        
 Trajectory Tracker → (Classical Feedback Control)
+        
         ↓
+        
 Low-Level Actuators → (Hardware Control / Implementation)
 
 ---
@@ -190,6 +194,7 @@ Optimal Control → Performance, Optimality, Trajectory Design
 - **Reinforcement Learning →** Experience-based improvement (“Learn optimal behavior from data.”)  
 - **Hybrid / Data-Driven →** Real-world adaptability (“Blend models with learning for robustness.”)
 ---
+
 
 | Aspect | **Indirect Methods** | **Direct Methods** |
 |--------|-----------------------|--------------------|
