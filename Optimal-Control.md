@@ -140,7 +140,7 @@ Optimal Control
 - **Inverse Optimal Control / IRL**: Infer cost functions from observed behavior.
 
 ---
-## Learning
+## Personal Notes
 
 Modern control design can be viewed as a *hierarchy of intelligence levels* — from analytic to data-driven.  
 Each layer addresses a different question about *how* to generate control actions:
@@ -210,16 +210,18 @@ Optimal Control → Performance, Optimality, Trajectory Design
 
 ---
 
-## 📚 References
+## 📚 References  
+- Bertsekas, D., *Dynamic Programming and Optimal Control*.
+- _yet to add_
+<!-- 
 - Kirk, D. E., *Optimal Control Theory: An Introduction*, Prentice-Hall.  
-- Bryson & Ho, *Applied Optimal Control*.  
-- Bertsekas, D., *Dynamic Programming and Optimal Control*.  
+- Bryson & Ho, *Applied Optimal Control*.
 - Lewis, F. L., *Optimal Control and Estimation*.  
-- Rawlings & Mayne, *Model Predictive Control: Theory and Design*.
+- Rawlings & Mayne, *Model Predictive Control: Theory and Design*.-->
 
 ---
 
-## ✍️ Author
-<!-- **Abhigyan Roy**  
+<!-- ## ✍️ Author
+ **Abhigyan Roy**  
 Dual Degree, Aerospace Engineering – IIT Madras  
 Focus: Guidance, Navigation & Control (GNC), Optimal Control, and Space Systems -->
