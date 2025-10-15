@@ -154,15 +154,15 @@ Each layer addresses a different question about *how* to generate control action
 | **Hybrid / Data-Driven** | How can I *combine models and data* for adaptable control? | Data-driven MPC, Model-based RL, Safe RL | Integrates learning + physics |
 
 
-Trajectory Planner → (Direct / Indirect Optimal Control)
+    Trajectory Planner → (Direct / Indirect Optimal Control)
         
         ↓
         
-Trajectory Tracker → (Classical Feedback Control)
+    Trajectory Tracker → (Classical Feedback Control)
         
         ↓
         
-Low-Level Actuators → (Hardware Control / Implementation)
+    Low-Level Actuators → (Hardware Control / Implementation)
 
 ---
 
