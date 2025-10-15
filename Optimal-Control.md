@@ -98,18 +98,19 @@ the goal is to find $$u^*(t)$$ that minimizes $$J$$ while satisfying system dyna
 
 ## 🌐 4. Summary Landscape
 
-        ┌──────────────────────────────┐
-        │  Optimal Control Problem (OCP)│
-        └──────────────┬───────────────┘
-                       │
-     ┌─────────────────┴──────────────────┐
-     │                                    │
- Analytical                         Numerical
-(Classical / PMP)               (Indirect / Direct / DP / RL)
-      │ │
-Small-scale Real-world, complex
-problems nonlinear systems
+            ┌──────────────────────────────┐
+            │ Optimal Control Problem (OCP)│
+            └──────────────┬───────────────┘
+                           │
+         ┌─────────────────┴──────────────────┐
+         │                                    │
+         Analytical                     Numerical
+    (Classical / PMP)            (Indirect / Direct / DP / RL)
+           │ │
+    Small-scale Real-world, complex
+    problems nonlinear systems
 
+     
 
 Optimal Control
 │
@@ -127,7 +128,7 @@ Optimal Control
     ├── Policy-based
     └── Actor–Critic / Hybrid
     └── Dynamic Programming
-│       └── Bellman Equation / HJB
+       └── Bellman Equation / HJB
 
 
 ---
