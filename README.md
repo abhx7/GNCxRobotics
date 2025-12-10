@@ -83,7 +83,8 @@
 - [Vehicle Mechanics course](https://www.linkedin.com/posts/lavinozona-francesco_meccanicaveicoloreport-activity-7336030688204185600-jgjp/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [One of the Best Repository to Start ROS 2 with Python Examples](https://www.linkedin.com/feed/update/urn:li:activity:7340347344426627072/)
 - [Vehicle Dynamics and Control](https://www.youtube.com/playlist?list=PLW3FM5Kyc2_4PGkumkAHNXzWtgHhaYe1d)
- 
+- [Intelligent Robot Simulator](https://github.com/hanruihua/ir-sim)
+  
 ### Tools
 - Before you buy sensors or build motors, you can test everything virtually physics, environments, cameras, even full AI models - [Robotics Tools](https://www.linkedin.com/posts/parthkanate_l047-robotics-simulationtools-activity-7314255418602479617-GpDc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - Exploring [aerial robotics simulation](https://www.linkedin.com/posts/enzo-ghisoni-robotics_robotics-drone-ros-activity-7338905129573568513-cPQ-/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)?
